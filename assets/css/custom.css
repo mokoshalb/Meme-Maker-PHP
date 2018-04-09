@@ -1,0 +1,204 @@
+#featured-img {
+width: 50%;
+}
+.lime {
+height: 150px !important;
+}
+@media (min-width:120px)  {
+.col-xs-6 {
+    width: 100%;
+}
+}
+@media (min-width:420px)  {
+.col-xs-6 {
+    width: 50%;
+}
+}
+@media (min-width:641px)  {
+.col-xs-6 {
+    width: 33.33%;
+}
+}
+@media (min-width:961px)  {
+.col-xs-6 {
+    width: 25%;
+}
+}
+@media (min-width:1025px) {
+.col-xs-6 {
+    width: 20%;
+}
+}
+@media (min-width:1281px) {
+.col-xs-6 {
+    width: 16.66%;
+}
+}
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.myImg:hover {opacity: 0.7;}
+/* The Modal (background) */
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal1-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal1-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close1 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal1-content {
+        width: 100%;
+    }
+}
+.ads>img{
+width:100%;
+}
+.totop a i {
+    display: block;
+    width: 32px;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 2px;
+}
+.bg-lor {
+    background-color: #32c8de !important;
+}
+.totop a, .totop a:visited {
+    color: #fff;
+}
+.totop {
+    position: fixed !important;
+    bottom: 10px !important;
+    right: 10px !important;
+    z-index: 104400 !important;
+    display: none;
+}
+.ajax-loading{
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.ajax-loading img{
+    width:50px !important;
+}
+.tg-btn {
+    color: #fff;
+    padding: 0 50px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 23px;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: capitalize;
+    background: #00cc67;
+    font: 500 16px/46px 'Quicksand', Arial, Helvetica, sans-serif;
+}
+.tg-btnbox {
+    width: 100%;
+    float: left;
+    padding: 60px 0 0;
+    text-align: center;
+    position: relative;
+}
+.tg-btn:hover, .tg-btn:focus, .tg-btn:active {
+    color: #fff;
+    background: rgba(0,0,0,0.20);
+}
+.tg-btn:before {
+    background: #00cc67;
+}
+.tg-btn:before {
+    top: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.item-share{height:28px;margin:10px 0 0;display:flex;justify-content:center;align-items:center;}
+.item-share a{float:left}
+.item-share a{display:block;margin-right:2%;height:28px;line-height:28px;color:#FFFFFF;text-decoration:none;text-align:center;width:15%;z-index:0}
+.item-share a:last-child{margin-right:0}
+.item-share .fa{display:block;height:28px;line-height:28px;border-radius:2px;width:32px;position:absolute}
+.item-share span{padding:0 5px;font-size:14px;color:#2E2E2E;height:28px;display:block;position:absolute;padding-left:40px;background-color:#FFFFFF;z-index:-1;box-shadow:0 1px 3px rgba(0,0,0,0.4);border-radius:2px}
+.item-share b{float:right;padding:0 7px;margin-left:5px;background-color:rgba(0,0,0,0.08);font-weight:300;font-size:12px}
+.item-share .dhref-done span{padding-right:0}
+.item-share .fa{width:auto;position:static}
+.social-icon .icon-twitter:hover,a:hover .icon-twitter,.icons-twitter .fa,.authorSocial .icon-twitter,.cst-twitter{background-color:#2DAAE1}
+.social-icon .icon-facebook:hover,a:hover .icon-facebook,.icons-facebook .fa,.authorSocial .icon-facebook,.cst-facebook{background-color:#3C5B9B}
+.social-icon .icon-google:hover,a:hover .icon-google,.icons-gplus .fa,.authorSocial .icon-google,.cst-google-plus{background-color:#F63E28}
+.social-icon .icon-rss:hover,a:hover .icon-rss{background-color:#FA8C27}
+.social-icon .icon-linkedin:hover,a:hover .icon-linkedin,.icons-linkedin .fa,.authorSocial .icon-linkedin,.cst-linkedin{background-color:#0173B2}
+.social-icon .icon-dribbble:hover,a:hover .icon-dribbble,.authorSocial .icon-dribbble{background-color:#F9538F}
+.social-icon .icon-pinterest:hover,a:hover .icon-pinterest,.icons-pinterest .fa,.authorSocial .icon-pinterest,.cst-pinterest{background-color:#CB2027}
