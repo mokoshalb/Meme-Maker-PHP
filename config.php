@@ -26,6 +26,6 @@ try {
 	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch( PDOException $exception ) {
-	echo "Connection error :" . $excepiton->getMessage();
+	echo "Connection error :" . $exception->getMessage();
 }
 ?>
