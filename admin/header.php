@@ -27,7 +27,7 @@ $cur_page = substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+
 	<link rel="stylesheet" href="css/_all-skins.min.css">
 	<link rel="stylesheet" href="css/dropify.css" type="text/css" media="screen,projection">
 	<link rel="stylesheet" href="style.css">
-	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body class="hold-transition fixed skin-blue sidebar-mini">
 	<div class="wrapper">
